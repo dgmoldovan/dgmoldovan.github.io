@@ -1,7 +1,8 @@
 .jumbotron {
-    background: url(../assets/vasko-hristov-305368-unsplash.jpg) no-repeat center;
+    background: url(../assets/alex-knight-326705-unsplash.jpg) no-repeat center;
     background-size: cover;
-    color: var(--teal);
-    text-align: center;
+    color: var(--purple);
+    text-shadow: 1px 1px var(--teal);
+    text-align: left;
     font-family: var(--font-two);
 }

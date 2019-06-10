@@ -1,4 +1,5 @@
 body {
     background: darkgrey;
     font-family: var(--font-one);
+    text-align: center;
 }
