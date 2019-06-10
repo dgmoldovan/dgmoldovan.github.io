@@ -1,0 +1,7 @@
+.jumbotron {
+    background: url(../assets/vasko-hristov-305368-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    color: var(--teal);
+    text-align: center;
+    font-family: var(--font-two);
+}

@@ -1,0 +1,11 @@
+#nav-content{
+    margin-left: 38%;
+}
+
+#nav-content a{
+    color: var(--teal);
+}
+
+#navBarLeft{
+    color: var(--purple);
+}
