@@ -1,5 +1,6 @@
 body {
-    background: darkgrey;
-    font-family: var(--font-one);
+    background: url(../assets/hexbackgroundpurple.png);
+    font-family: var(--font-two);
     text-align: center;
+    color: var(--lightblue);
 }

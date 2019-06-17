@@ -1,5 +1,12 @@
 #contactField{
     text-align:center;
+    width: 30em;
     
 }
 
+
+
+
+#contactTextBox {
+    display: inline;
+}

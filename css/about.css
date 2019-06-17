@@ -1,0 +1,19 @@
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutText{
+    width: 75%;
+}
+
+.modal-header{
+    text-align:center;
+}
+
+.modal-footer{
+    display: flex;
+    justify-content: center;
+}
