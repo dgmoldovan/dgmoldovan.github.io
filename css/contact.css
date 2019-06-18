@@ -1,7 +1,14 @@
 #contactField{
     text-align:center;
     width: 30em;
+    margin-top: 3em;
     
+}
+
+#contactTitle{
+    font-size: 2.75em;
+    color: var(--lightgreen);
+    animation: textShadow 3.5s infinite;
 }
 
 

@@ -5,15 +5,71 @@
     align-items: center;
 }
 
+.aboutContainer h2{
+    padding-bottom: 1.2em;
+    font-size: 2.75em;
+    animation: textShadow 3.5s infinite;
+    color: var(--lightgreen);
+}
+
 #aboutText{
-    width: 75%;
+    width: 60%;
 }
 
 .modal-header{
     text-align:center;
+    background-color: gray;
+    border: none;
+    
 }
+
+.modal-body{
+    background-color: var(--notblack);
+    border: none;
+}
+
 
 .modal-footer{
     display: flex;
     justify-content: center;
+    background-color: gray;
+    border: none;
+    margin: none;
+    border-right: none;
+    margin-right:none;
+}
+
+.modal-content{
+    border: none;
+    width: 40em;
+
+}
+
+#modalText{
+    margin-bottom: .5em;
+}
+
+.aboutTextBox{
+    text-align:center;
+    display: flex;
+    justify-content:center;
+}
+
+.gitLinkedResumeText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.2em;
+}
+
+#githubText{
+    color: var(--gitgreen);
+}
+
+#linkedInText{
+    color: var(--linkedblue);
+}
+
+#resumeText{
+    color: var(--lightpurple);
 }

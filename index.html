@@ -16,8 +16,8 @@
 <body>
 <!--Nav Bar-->
     <section id="navbar">
-            <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-                    <a class="navbar-brand" id="navBarLeft" href="#">.locate</a>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" id="navBarLeft" href="#">.portfolio</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
@@ -51,25 +51,28 @@
 
       <div class="aboutContainer">
 
-        <H2>.ABOUT</H2>
-        <p id="aboutText">physical free-market franchise beef noodles katana -ware tower woman wristwatch nodal point sensory engine. augmented reality tattoo shoes vehicle voodoo god plastic DIY cyber- human courier carbon rebar. carbon alcohol shrine sensory youtube soul-delay otaku Legba knife fluidity receding modem. 
-
-            tattoo neural drone spook rain otaku beef noodles lights paranoid man marketing disposable. tower drone silent j-pop towards free-market nano- singularity neon sprawl tanto BASE jump. -ware franchise kanji lights Kowloon -ware car dolphin pistol tube computer claymore mine. 
-            
-            range-rover motion denim sub-orbital dolphin systema refrigerator girl BASE jump geodesic bomb DIY. numinous ablative San Francisco gang shoes neon hotdog bomb bridge skyscraper film digital. weathered 8-bit geodesic uplink towards RAF vehicle face forwards decay hotdog uplink nodal point. 
-            
-            courier sensory assassin face forwards modem military-grade long-chain hydrocarbons BASE jump shanty town augmented reality decay neural. wonton soup sub-orbital woman gang kanji lights warehouse Kowloon plastic meta- -space 3D-printed. engine Chiba meta- girl singularity long-chain hydrocarbons singularity tattoo nodality neural motion Chiba. </p>
-      
-      </div>
-
-  <br>    
+        <H2 id="aboutTitle">.ABOUT</H2>
+          <div class="aboutTextBox">
+            <p id="aboutText">
+              Hi, my name is Garrett Moldovan and I am currently enrolled in elevenFifty academy's 12-week javascript boot-camp program. 
+              I have always had an interest in coding but never knew where to start or which language/language's to go with. 
+              Before starting at elevenFifty I worked in the IT industry as an on-site tech for an MSP located south of Houston, Texas.
+              While there everyday was a new learning experience, seeing and interacting with new equipment, software, and people. Below you can find link to access my github, linkedin, and resume.
+             </p>
+          </div>
+      </div> 
 
       <!-- Button trigger modal -->
 
     <section id="externalInfo">
 
-      <h2> /.github /.linkedin /.resume</h2>
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        <div class="gitLinkedResumeText">
+
+          <h2 id="githubText">/.github </h2> <h2 id="linkedInText">/.linkedIn </h2> <h2 id="resumeText">/.resume</h2>
+
+        </div>
+
+      <button type="button" class="btn btn-primary btn-large" data-toggle="modal" data-target="#exampleModal">
       .access
       </button>
 
@@ -87,14 +90,17 @@
               </button>
             </div>
             <div class="modal-body">
+              <h2>Please select an option below.</h2>
 
-              Please select an option below.
+              <a href="https://github.com/dgmoldovan" target="_blank" class="btn btn-primary">.github</a>
+              <a href="https://www.linkedin.com/in/garrett-moldovan-b9388855/" target="_blank" class="btn btn-primary">.linkedin</a>
+              <a href="" target="_blank" class="btn btn-primary">.resume</a>
+
+
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-primary">/.github</button>
-              <button type="button" class="btn btn-primary">/.linkedin</button>
-              <button type="button" class="btn btn-primary">/.resume</button>
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">.exit</button>
+              
+              <button type="button" class="btn btn-outline-warning" data-dismiss="modal">.eject</button>
               
             </div>
           </div>
@@ -108,11 +114,12 @@
   <!--PROJECTS--> 
 
     <section id="projects">
-            <div class="container">
+            <div class="container" id="projectArea">
+              <H2 id="projectTitle">.PROJECTS</H2>
                     <div class="row" id="projectCol">
                       <div class="col-sm">
-                        <div class="card w-33" id="leftCard">
-                          <img src="../portfolio/assets/zakuheadsample.PNG" class="card-img-top" alt="...">
+                        <div class="card w-30" id="leftCard">
+                          <img src="assets/zakuheadsample.PNG" class="card-img-top" alt="...">
                           <div class="card-body">
                             <h5 class="card-title">.CSS CREATURE</h5>
                             <p class="card-text">Zaku head created in CSS.</p>
@@ -121,8 +128,8 @@
                         </div>
                       </div>
                       <div class="col-sm">
-                          <div class="card w-33" id="midCard">
-                              <img src="../portfolio/assets/placeholder.png" class="card-img-top" alt="...">
+                          <div class="card w-30" id="midCard">
+                              <img src="assets/placeholder.png" class="card-img-top" alt="...">
                               <div class="card-body">
                                 <h5 class="card-title">.STATIC LAYOUT</h5>
                                 <p class="card-text">Attempt at recreating the Netflix homepage.</p>
@@ -131,12 +138,12 @@
                             </div>
                       </div>
                       <div class="col-sm">
-                          <div class="card w-33" id="rightCard">
-                              <img src="..//portfolio/assets/placeholder.png" class="card-img-top" alt="...">
+                          <div class="card w-30" id="rightCard">
+                              <img src="assets/simpApiSS.PNG" class="card-img-top" alt="...">
                               <div class="card-body">
                                 <h5 class="card-title">.API PROJECT</h5>
                                 <p class="card-text">A Simpsons quote website, info generated by an open API.</p>
-                                <a href="" class="btn btn-primary">.launch</a>
+                                <a href="https://dmsimpquoteapi.firebaseapp.com" class="btn btn-primary">.launch</a>
                               </div>
                             </div>
                       </div>
@@ -149,7 +156,7 @@
  <!--CONTACT-->   
  <section id="contact">
         <div class="container" id="contactField">
-          <h2 class="text-center text-uppercase">.CONTACT</h2>
+          <h2 class="text-center text-uppercase" id="contactTitle">.CONTACT</h2>
           <div class="row" id="contactTextBox">
             <form action="https://formspree.io/garrett.moldovan@gmail.com" method="POST">
               <div class="control-group">
