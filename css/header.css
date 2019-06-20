@@ -3,6 +3,7 @@
     background-size: cover;
     position: relative;
     height: 41.5em;
+    width: 100%;
     color: var(--lightgreen);
     text-align: left;
     font-family: var(--font-two);
